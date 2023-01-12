@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModelBidingHW", "ModelBidingHW\ModelBidingHW.csproj", "{DE800888-677B-43A1-8C20-34151712C235}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DE800888-677B-43A1-8C20-34151712C235}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE800888-677B-43A1-8C20-34151712C235}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE800888-677B-43A1-8C20-34151712C235}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE800888-677B-43A1-8C20-34151712C235}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {34F60DC3-AE9D-4564-AE5B-628832788317}
+	EndGlobalSection
+EndGlobal
