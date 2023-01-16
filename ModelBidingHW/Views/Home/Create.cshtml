@@ -1,1 +1,46 @@
-﻿
+﻿@model VideoGame
+@{
+	ViewData["Title"] = "Add a new video game";
+}
+<h2>Add a video game</h2>
+
+<form method="post">
+	<div class="col-md-6">
+		<div class="form-group">
+			<label class="control-label" asp-for="Title"></label>
+			<input class="form-control" asp-for="Title" />
+			<span class="text-danger" asp-validation-for="Title"></span>
+		</div>
+
+		<div class="form-group">
+			<label class="control-label" asp-for="Price"></label>
+			<input class="form-control" asp-for="Price" />
+			<span class="text-danger" asp-validation-for="Price"></span>
+		</div>
+
+		<div class="form-group">
+			<label class="control-label" asp-for="AgeRating">Age Rating</label>
+			<input class="form-control" asp-for="AgeRating" />
+			<span class="text-danger" asp-validation-for="AgeRating"></span>
+		</div>
+		
+		<div class="form-group">
+			<label class="control-label" asp-for="Publisher"></label>
+			<input class="form-control" asp-for="Publisher" />
+			<span class="text-danger" asp-validation-for="Publisher"></span>
+		</div>
+		
+		<div class="form-group">
+			<label class="control-label" asp-for="Developer"></label>
+			<input class="form-control" asp-for="Developer" />
+			<span class="text-danger" asp-validation-for="Developer"></span>
+		</div>
+
+		<br />
+		<input class="btn btn-primary" type="submit" value="Add Product"/>
+	</div>
+</form>
+
+@section Scripts{
+		<partial name="_ValidationScriptsPartial" />
+}

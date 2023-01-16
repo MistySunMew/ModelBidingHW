@@ -23,16 +23,22 @@ namespace ModelBidingHW.Controllers
             return View();
         }
 
-        public IActionResult Create()
+		[HttpGet]
+		public IActionResult Create()
         {
             return View();
         }
 
+        [HttpPost]
         public IActionResult Create(VideoGame g)
         {
-            //Validate
+            if (ModelState.IsValid)
+			{
+				//Add to Database
+				return RedirectToAction("Index");
+			}
 
-            //Add to Database
+            
             
             return View();
         }
